@@ -1,17 +1,4 @@
-// script.js (Vazio por enquanto)
+// script.js (Vazio por enquanto, mas pronto para futuras interatividades)
 
-// Exemplo de como você poderia adicionar um efeito de "rolar suave" para seções
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
-
-// Você pode adicionar um console.log para verificar se o JS está sendo carregado
-console.log("Seu script JavaScript está funcionando!");
+// Exemplo: Simples log para confirmar que o script está carregado
+console.log("Seu JavaScript está pronto para adicionar interatividade!");
