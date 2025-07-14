@@ -255,13 +255,18 @@ p {
     color: var(--primary-color);
     margin-top: 0;
     font-size: 1.6em;
+    text-align: center;
+    
 }
 
 .timeline-content p {
     font-size: 1em;
     margin: 0;
 }
-
+.timeline-content img{
+    margin: 5px;
+    width: 100%;
+}
 /* Qualificações (Skills Grid) */
 .skills-grid {
     display: grid;
@@ -299,7 +304,8 @@ p {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: left;
+    
+    -ms-text-justify:auto;
 }
 
 .skill-category ul li {
@@ -323,6 +329,16 @@ p {
     margin-left: -1em;
 }
 
+.skill-category div{
+    align-items: left;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 15%;
+    
+}
+.skill-category div img{
+    width: 100%;
+}
 
 /* Rodapé */
 .footer {
